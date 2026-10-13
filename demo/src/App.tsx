@@ -1,17 +1,8 @@
 import './App.css'
-import Card from './Card.tsx'
+import Baum from './Baum.tsx'
 
 function App() {
-  return (
-    <>
-      <h1>Willkommen</h1>
-      <div className="card-container">
-        <Card/>
-      <Card/>
-      </div>
-
-    </>
-  )
+  return <Baum />
 }
 
 export default App
